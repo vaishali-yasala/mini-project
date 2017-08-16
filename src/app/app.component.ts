@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {MyservicenameService } from "app/myservicename.service";
+import { DetailInfoService } from "app/detailinfo.service";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Welcome to angular-2 app!';
+
 }

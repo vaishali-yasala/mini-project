@@ -1,0 +1,20 @@
+<body>
+
+<h2 class="main">Github Users</h2>
+
+     <ul *ngFor="let user of users; let i= index" ><br>
+
+    <div class="container"> 
+
+      <tr><td><img src="{{user.avatar_url}}"  class="icon"></td>
+ 
+     <td>  <p class="text" [routerLink]="['/user', user.login]"> {{user.login}} </p></td></tr>
+
+
+    </div> 
+      </ul>
+
+
+  <br>
+  <br>
+    </body>

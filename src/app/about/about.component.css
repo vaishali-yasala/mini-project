@@ -1,0 +1,16 @@
+.card{
+    background-color:whitesmoke;
+    width:98%;
+    padding: 10px;
+    height:50px;
+    font-size: 20px;
+    margin-top: 57px;
+    margin-left: 0px;
+
+}
+
+.text{
+    width: 100%;
+    margin-top: 30px;
+    font-size: 18px;
+}
