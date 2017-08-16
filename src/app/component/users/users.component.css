@@ -1,30 +1,28 @@
 .main{
     text-align: center;
-    margin-top: 65px;
-    margin-bottom: 15px;
+    padding-top:10px;
 }
 
 .container {
     box-shadow: 2px 4px 8px 0 white;
     border-radius: 10px;
-    width: 100%;
     background-color:white;
     color: purple;
     font-size: 18px;
     margin-left: 0px;
-
+    margin-right: 25px;
 }
-.icon{
 
+.icon{
 width:40px;
 height:40px;
 border-radius:40px;
 padding: 5px;
-
 }
 
-.text{
+.username{
     padding-top: 0px;
     margin-top: 10px;
     cursor:pointer;
+    color:black;
 }

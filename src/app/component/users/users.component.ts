@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MyservicenameService } from "app/myservicename.service";
+import { MyservicenameService } from "app/service/myservicename.service";
 import { Observable } from 'rxjs/Observable';
 
 @Component({

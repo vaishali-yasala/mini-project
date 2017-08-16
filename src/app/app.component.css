@@ -11,8 +11,6 @@
   font-size: 1.4em;
   line-height: 50px;
   height: 50px;
-
-  border-bottom: 1px solid #888;
 }
  
 .nav a {
@@ -33,11 +31,6 @@
     position: fixed;
     top:0;  
 }
-
-.nav a.home{
-  background-color: purple;
-  padding: 2px;
-}
  
   .nav li {
     display: inline-block;
@@ -55,7 +48,7 @@
 }
 
 .container{
-  margin:0px;
+  margin-top:51px;
   height: 100%;
   width:100%;
 }

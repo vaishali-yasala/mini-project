@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import { DetailInfoService } from '/home/clairvoyant/Work/mini-project/src/app/detailinfo.service';
+import { DetailInfoService } from '/home/clairvoyant/Work/mini-project/src/app/service/detailinfo.service';
 import { ActivatedRoute, Router, Params} from '@angular/router';
 
 @Component({

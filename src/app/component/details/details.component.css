@@ -2,7 +2,6 @@
     text-align: center;
     box-shadow: 0 5px 8px 0 lightgrey;
     background-color: white;
-    margin-top: 51px;
     width: 100%;
 
 }
@@ -21,27 +20,26 @@
    margin-left: 50px;
    margin-top: 50px;
    margin-right: 50px;
-   margin-bottom:50px;
-  
+   margin-bottom:50px; 
 }
 
-.a,.b,.c,.d,.e{
+.name,.location,.company,.Blog,.Publicrepos,.Followers,.Following{
     text-align: left;
 }
-.t,.x,.y,.z{
+.Bloglink,.login,.companylocation,.companyname{
     opacity:0.6;
 }
-.e{
+.Publicrepos{
     background-color: blue;
     color: white;
 
 }
-.f{
+.Followers{
     background-color: lightgreen;
     color: white;
 }
 
-.g{
+.Following{
     background-color: black;
     color:white;
 }
@@ -53,6 +51,6 @@
     width:60%;
 }
 .line{
-    width: 260%;
-    margin:10px;
+    width: 200%;
+    height: 65px;
 }

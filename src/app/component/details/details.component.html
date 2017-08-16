@@ -1,0 +1,47 @@
+<h1 class="info">User Info</h1>
+<div class="container">
+<table class="heading">
+<tr><td>
+   <img src="{{detailinfo.avatar_url}}" class="pic"></td>
+ <td>  
+  <h3> {{detailinfo.name === null ? detailinfo.login:detailinfo.name}}</h3></td></tr>
+  <br></table>
+   <table class="table">
+  <tr>
+    <td class="name">Username:</td>
+    <td class="login">{{detailinfo.login}}</td>
+  </tr><br>
+
+  <tr>
+    <td class="location">Location:  </td>
+    <td class="companylocation">{{detailinfo.location === null ? 'NA':detailinfo.location}}</td>
+  </tr><br>
+
+  <tr>
+    <td  class="company">Company:</td>
+    <td  class="companyname">{{detailinfo.company === null ? 'NA':detailinfo.company}}</td>
+  </tr><br>
+
+  <tr>
+    <td class="Blog">Blog Link:</td>
+    <td class="Bloglink">{{detailinfo.blog === "" ? 'NA':detailinfo.blog}}</td>
+  </tr><br>
+
+  <table class="line">
+  <tr >
+    <td class="Publicrepos">{{detailinfo.public_repos === "" ? 'NA':detailinfo.public_repos}} Public Repos</td>
+
+    <td class="Followers">{{detailinfo.followers=== "" ? 'NA':detailinfo.followers}} Followers</td>
+
+    <td class="Following">{{detailinfo.following === "" ? 'NA':detailinfo.following}} Following</td>
+  </tr><br></table>
+
+</table>
+<div class="button" >
+
+<button (click)="getRepo()">
+  View Repo</button></div><br>
+<br></div>
+<br>
+<br> 
+<br>
