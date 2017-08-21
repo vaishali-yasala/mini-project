@@ -11,7 +11,7 @@ import { ActivatedRoute, Params,Router} from '@angular/router';
 })
 export class DetailsComponent implements OnInit {
 
-  constructor(private DetailinfoService:DetailInfoService, private route: ActivatedRoute, private router: Router) { }
+  constructor(private DetailInfoService:DetailInfoService, private route: ActivatedRoute, private router: Router) { }
   detailinfo: any={} ;
   public userinfo;
 
@@ -22,7 +22,7 @@ ngOnInit()
        this.userinfo= userdetails;
        console.log(this.userinfo);
 
-      this.DetailinfoService.getDetailInfo(this.userinfo).subscribe
+      this.DetailInfoService.getDetailInfo(this.userinfo).subscribe
       (
         (detailsinfo) => {this.detailinfo = detailsinfo;
         console.log("x"+detailsinfo);}

@@ -11,7 +11,7 @@ import { UsersComponent } from '/home/clairvoyant/Work/mini-project/src/app/comp
 import { DetailsComponent } from '/home/clairvoyant/Work/mini-project/src/app/component/details/details.component';
 
 import { DetailInfoService } from "app/service/detailinfo.service";
-import { MyservicenameService } from "app/service/myservicename.service";
+import { MyServiceNameService } from "app/service/myservicename.service";
 
 
 @NgModule({
@@ -21,7 +21,7 @@ import { MyservicenameService } from "app/service/myservicename.service";
   imports: [
     BrowserModule,FormsModule,HttpModule, AppRoutingModule
   ],
-  providers: [MyservicenameService,DetailInfoService],
+  providers: [MyServiceNameService,DetailInfoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

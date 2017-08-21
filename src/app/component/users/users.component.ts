@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { MyservicenameService } from "app/service/myservicename.service";
+import { MyServiceNameService } from "app/service/myservicename.service";
 import { Observable } from 'rxjs/Observable';
+
 
 @Component({
   selector: 'app-users',
@@ -9,14 +10,14 @@ import { Observable } from 'rxjs/Observable';
 })
 export class UsersComponent implements OnInit {
 
-constructor (private MyservicenameService: MyservicenameService){}
+constructor (private MyServiceNameService: MyServiceNameService){}
 users: Observable <any>;
 
 ngOnInit()
 {
-  this.MyservicenameService.getUsers().subscribe
+  this.MyServiceNameService.getUsers().subscribe
   (
-    x => {this.users = x}
+  username => {this.users = username}
   );
 
 }

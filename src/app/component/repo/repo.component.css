@@ -1,8 +1,8 @@
 .container{
-    box-shadow: 0 4px 8px 0 indigo;
+    box-shadow: 0 4px 8px 0 white;
     width:95%;
     margin-left: 25px;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
     padding: 5px;  
     background-color:white;
     border-radius:10px;

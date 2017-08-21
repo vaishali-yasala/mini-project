@@ -10,7 +10,7 @@ import { ActivatedRoute, Router, Params} from '@angular/router';
 })
 export class RepoComponent implements OnInit{
 
-  constructor(private DetailinfoService:DetailInfoService, private activatedRoute: ActivatedRoute) { }
+  constructor(private DetailInfoService:DetailInfoService, private activatedRoute: ActivatedRoute) { }
 
  repo: Observable <any>;
   username: String;
@@ -22,16 +22,16 @@ export class RepoComponent implements OnInit{
        this.username= name;
        console.log(this.username);
 
-     this.DetailinfoService.getDetailInfo(this.username).subscribe
+     this.DetailInfoService.getDetailInfo(this.username).subscribe
       (
         (detailsinfo) => {this.detailInfo = detailsinfo;
         console.log(detailsinfo);}
       );     
       
-  this.DetailinfoService.getRepo(this.username+"/"+"repos ").subscribe
+  this.DetailInfoService.getRepo(this.username+"/"+"repos ").subscribe
       (
-        (x) => {this.repo = x;
-          console.log(x);}
+        (repos) => {this.repo = repos;
+          console.log(repos);}
       );
 
   }
